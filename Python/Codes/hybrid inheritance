@@ -1,0 +1,51 @@
+
+#Hybrid inheritance
+
+print("Navrattan")
+print("27118")
+# Base class
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def display_name(self):
+        print("Name:", self.name)
+
+# Derived class from Person
+class Student(Person):
+    def __init__(self, name, student_id):
+        super().__init__(name)
+        self.student_id = student_id
+
+    def display_student(self):
+        print("Student ID:", self.student_id)
+
+# Derived class from Person
+class Employee(Person):
+    def __init__(self, name, employee_id):
+        super().__init__(name)
+        self.employee_id = employee_id
+
+    def display_employee(self):
+        print("Employee ID:", self.employee_id)
+
+# Derived class of Employee
+class Manager(Employee):
+    def __init__(self, name, employee_id, department):
+        super().__init__(name, employee_id)
+        self.department = department
+
+    def display_manager(self):
+        print("Department:", self.department)
+
+
+print("=== Student ===")
+s = Student("Kamlesh", "25637")
+s.display_name()
+s.display_student()
+
+print("\n=== Manager ===")
+m = Manager("Modi", "E569", "HR")
+m.display_name()
+m.display_employee()
+m.display_manager()
