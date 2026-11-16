@@ -1,0 +1,24 @@
+
+1+2. quick sort (2- first and last pivot)
+3. merge sort 
+5+4 binary search (iterative + recursive) - done
+6. linear search (recursive) - done
+7. matrix addition - done
+8. matrix naive mul - done
+9. matrix dac mul - done
+10.strassens's - done
+11.fractional knapsack - done
+12.job sequen - done
+14.prim's - adjacency matrix - done
+15.prim's - adjacency list + Min Heap - done
+16.dijkstra's - done 
+17.bellman ford - done 
+18.disjoint set - done
+19.0/1 memoization - done
+20.0/1 tabulation - done
+- linear search with iterative 
+
+-research paper 
+-leet code score 
+-gate : made easy , pw
+-
